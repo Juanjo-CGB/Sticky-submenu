@@ -2,9 +2,10 @@
   "name": "sticky",
   "version": "1.0.0",
   "description": "Fijar un elemento mediante posicionamiento 'sticky' cuando no es descendiente directo del contenedor",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
