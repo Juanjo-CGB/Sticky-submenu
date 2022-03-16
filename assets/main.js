@@ -10,11 +10,11 @@ const header = document.querySelector("header");
 const socialNav = document.querySelector(".social");
 const mainNav = document.querySelector(".main-nav");
 /**
-  * Posiciona el menú en la página
+  * Fija el submenú en la parte superior de la página
   * @param  {}
   * @return  {void}
   */
- function posicionarMenu() {
+ function fijarMenu() {
     let scroll = this.scrollY; 
     let alturaSocialNav = socialNav.clientHeight;
     if ((scroll >= alturaSocialNav)){
@@ -33,7 +33,7 @@ const mainNav = document.querySelector(".main-nav");
     }
 }
 //Menú Fijo
-posicionarMenu(); 
+fijarMenu(); 
 window.addEventListener("scroll", function () {
-    posicionarMenu();
+    fijarMenu();
 });
