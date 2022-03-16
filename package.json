@@ -1,0 +1,24 @@
+{
+  "name": "sticky",
+  "version": "1.0.0",
+  "description": "Fijar un elemento mediante posicionamiento 'sticky' cuando no es descendiente directo del contenedor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanjo-CGB/Sticky-submenu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanjo-CGB/Sticky-submenu/issues"
+  },
+  "homepage": "https://github.com/Juanjo-CGB/Sticky-submenu#readme",
+  "dependencies": {
+    "jsdoc": "^3.6.10",
+    "minami": "^1.2.3"
+  }
+}
