@@ -21,5 +21,8 @@
   "dependencies": {
     "jsdoc": "^3.6.10",
     "minami": "^1.2.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

@@ -10,6 +10,15 @@ const header = document.querySelector("header");
 const socialNav = document.querySelector(".social");
 const mainNav = document.querySelector(".main-nav");
 /**
+  * Establece el año en el footer
+  * @returns {void}
+  */
+ function establecerYear(){ 
+    const today = new Date();
+    const nodoYear = document.querySelector(".footer__copy-year"); 
+    nodoYear.innerHTML = today.getFullYear();
+}
+/**
   * Fija el submenú en la parte superior de la página
   * @param  {}
   * @return  {void}
@@ -32,6 +41,8 @@ const mainNav = document.querySelector(".main-nav");
         mainNav.classList.remove('shadow');
     }
 }
+//Pintar año
+establecerYear();
 //Menú Fijo
 fijarMenu(); 
 window.addEventListener("scroll", function () {
